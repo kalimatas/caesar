@@ -44,6 +44,7 @@ def getParser():
     return parser
 
 if __name__ == "__main__":
+    # just testing gitdiff
     parser = getParser()
     try:
         args = parser.parse_args()
